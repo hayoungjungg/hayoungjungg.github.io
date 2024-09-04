@@ -2,24 +2,20 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: cropped-image.png
+  image_circular: true # crops the image to make it circular
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a M.S. student in the [Paul G. Allen School of Computer Science & Engineering](https://www.cs.washington.edu/) at the [University of Washington](https://www.washington.edu/), advised by [Tanushree Mitra](https://faculty.washington.edu/tmitra/).  Broadly, my research interests revolve around **advancing language technologies to better serve diverse populations**. Specifically:
+- **AI Ethics:** Evaluating how NLP models and AI-powered services, such as search engines, can propagate harms and misinformation, particularly affecting marginalized populations.
+- **Computational Social Science:** Leveraging NLP techniques in conjunction with social science theories for a deeper understanding of diverse populations, communities, and culture. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+As a graduate student, I've been fortunate to conduct research with [Yulia Tsvetkov](https://homes.cs.washington.edu/~yuliats/), [David Jurgens](https://jurgens.people.si.umich.edu/), and [Monojit Choudhury](https://mbzuai.ac.ae/study/faculty/monojit-choudhury/). Previously, I received undergraduate degrees in Computer Science and Political Science from the University of Washington.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.

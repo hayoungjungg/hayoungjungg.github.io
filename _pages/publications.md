@@ -11,6 +11,10 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">
 
+<h2>preprint</h2>
 {% bibliography -f {{ site.scholar.bibliography }} --query @*[category=preprint]* %}
+
+<h2>conference &amp; journal articles</h2>
+{% bibliography -f {{ site.scholar.bibliography }} --query @*[category=published]* %}
 
 </div>

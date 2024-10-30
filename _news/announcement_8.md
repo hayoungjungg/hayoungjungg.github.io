@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Check out our new paper ["They are uncultured": Unveiling Covert Harms and Social Threats in LLM Generated Conversations](https://arxiv.org/abs/2405.05378) where we compare covert harms in LLM-generated conversations between race vs. caste!
+[New paper](https://arxiv.org/abs/2405.05378) where we analyze covert harms in LLM-generated conversations between race and caste! Accepted at **EMNLP 2024** and nominated for the Best Paper Award!

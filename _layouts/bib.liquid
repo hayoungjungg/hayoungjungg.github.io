@@ -167,18 +167,16 @@
     {%- capture periodical -%}{{ entrytype }}{%- if entrytype_text != "" and entryyear != "" -%}, {%- endif -%}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
     <div class="periodical">
       {{ periodical | strip }}
+      <span style="color: #DAA520">{{ entry.award | strip }}</span> <!-- Inline styling -->
     </div>
+
+
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
 
     <!-- Links/Buttons -->
     <div class="links">
-      {% if entry.award %}
-        <a class="award btn btn-sm z-depth-0" role="button">
-          {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awareded{% endif -%}
-        </a>
-      {% endif %}
       {%- if entry.url %}
         <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button">URL</a>
       {%- endif %}
@@ -313,13 +311,6 @@
           {% endif %}
         </div>
       {% endif %}
-    {% endif %}
-
-    {% if entry.award %}
-      <!-- Hidden Award block -->
-      <div class="award hidden d-print-inline">
-        <p>{{ entry.award | markdownify }}</p>
-      </div>
     {% endif %}
 
     {% if entry.abstract %}

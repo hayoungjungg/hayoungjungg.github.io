@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-9-16
+date: 2024-11-11
 inline: true
 related_posts: false
 ---
 
-[New preprint](https://arxiv.org/abs/2409.10168) where we conduct an algorithmic audit of YouTube Search for COVID-19 misinformation between a country in the Global North vs. one in the Global South!
+Attending my first conference, EMNLP 2024 in Miami, where I will be presenting an oral presentation and a poster presentation. 

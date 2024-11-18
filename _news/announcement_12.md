@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-11-11
+date: 2024-11-16
 inline: true
 related_posts: false
 ---
 
-Attending my first conference, EMNLP 2024 in Miami, where I will be presenting an oral presentation and a poster presentation. 
+[New paper](https://arxiv.org/abs/2409.10168) on auditing YouTube Search for COVID-19 misinformation between a country in the Global North vs. in the Global South! Accepted at **ICWSM 2025!**

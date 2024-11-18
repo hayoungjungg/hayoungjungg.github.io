@@ -167,9 +167,9 @@
     {%- capture periodical -%}{{ entrytype }}{%- if entrytype_text != "" and entryyear != "" -%}, {%- endif -%}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
     <div class="periodical">
       {{ periodical | strip }}
-      <span style="color: #DAA520">{{ entry.award | strip }}</span> <!-- Inline styling -->
+      <span style="color: #DAA520">{{ entry.award | strip }}</span>
+      <!-- Inline styling -->
     </div>
-
 
     <div class="periodical">
       {{ entry.note | strip }}

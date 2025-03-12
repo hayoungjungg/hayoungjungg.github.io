@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[New paper](https://aclanthology.org/2024.emnlp-main.1134/) on unveiling covert harms in LLM-generated conversations between race & caste! Accepted at **EMNLP 2024**, nominated for Best Paper, and featured on [UW News](https://www.washington.edu/news/2024/11/20/ai-chatbots-chatgpt-hiring-bias-caste-race/)!
+[New paper](https://aclanthology.org/2024.emnlp-main.1134/) where we analyze covert harms in LLM-generated conversations between race and caste! Accepted at **EMNLP 2024** and nominated for the Best Paper Award!

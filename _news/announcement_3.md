@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2022-6-10
+date: 2016-01-15 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-Working with [Prof. Tanushree Mitra](https://faculty.washington.edu/tmitra/) this summer as part of the [DUB REU Program](https://dub.washington.edu/)!
+A simple inline announcement with Markdown emoji! :sparkles: :smile:

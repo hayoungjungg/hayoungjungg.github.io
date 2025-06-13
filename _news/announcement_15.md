@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[New preprint](https://arxiv.org/abs/2506.00308) proposing a scalable detection of opioid use disorder on a video-sharing platform.
+[New preprint](https://arxiv.org/abs/2506.00308) on scalable detection of opioid use disorder myths on a video-sharing platform.

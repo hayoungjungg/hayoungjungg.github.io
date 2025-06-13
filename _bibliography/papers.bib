@@ -1,15 +1,16 @@
-@inproceedings{jung2024algorithmicbehaviorsregionsgeolocation,
-      title={Algorithmic Behaviors Across Regions: A Geolocation Audit of YouTube Search for COVID-19 Misinformation between the United States and South Africa}, 
+@inproceedings{Jung_Juneja_Mitra_2025,
+      title={Algorithmic Behaviors Across Regions: A Geolocation Audit of YouTube Search for COVID-19 Misinformation Between the United States and South Africa}, 
       author={Hayoung Jung and Prerna Juneja and Tanushree Mitra},
       year={2025},
-      eprint={2409.10168},
-      archivePrefix={arXiv},
-      primaryClass={cs.CY},
       booktitle={Proceedings of the International AAAI Conference on Web and Social Media (ICWSM).},
       abbr={ICWSM},
       selected={true},
-      url={https://arxiv.org/abs/2409.10168},
+      DOI={10.1609/icwsm.v19i1.35854},
+      url={https://ojs.aaai.org/index.php/ICWSM/article/view/35854},
       category={published},
+      volume={19},  
+      number={1},
+      pages={935-964},
       data={https://github.com/social-comp/YouTubeAuditGeolocation-data},
       model={https://huggingface.co/SocialCompUW/youtube-covid-misinfo-detect},
       abstract = {Despite being an integral tool for finding health-related information online, YouTube has faced criticism for disseminating COVID-19 misinformation globally to its users. Yet, prior audit studies have predominantly investigated YouTube within the Global North contexts, often overlooking the Global South. To address this gap, we conducted a comprehensive 10-day geolocation-based audit on YouTube to compare the prevalence of COVID-19 misinformation in search results between the United States (US) and South Africa (SA), the countries heavily affected by the pandemic in the Global North and the Global South, respectively. For each country, we selected 3 geolocations and placed sock-puppets, or bots emulating "real" users, that collected search results for 48 search queries sorted by 4 search filters for 10 days, yielding a dataset of 915K results. We found that 31.55% of the top-10 search results contained COVID-19 misinformation. Among the top-10 search results, bots in SA faced significantly more misinformative search results than their US counterparts. Overall, our study highlights the contrasting algorithmic behaviors of YouTube search between two countries, underscoring the need for the platform to regulate algorithmic behavior consistently across different regions of the Globe.}
@@ -22,11 +23,16 @@
       booktitle={Proceedings of the International AAAI Conference on Web and Social Media (ICWSM).},
       abbr={ICWSM},
       selected={true},
-      url={https://mittalshravika.github.io/assets/publications/2025_oud_myths/paper.pdf},
+      url={https://ojs.aaai.org/index.php/ICWSM/article/view/35870},
       category={published},
+      volume={19}, 
+      number={1},
+      pages={1224-1245},
+      DOI={10.1609/icwsm.v19i1.35870},
       code={https://github.com/anonymous-user-25/OUD-myths},
       abstract = {Online communities on Reddit are a popular choice among people with opioid use disorder (OUD) to seek information on drug use, withdrawal symptoms, and recovery. LLMpowered chatbots (e.g., ChatGPT) are widely being adopted as question-answer systems for health-related queries. However, such online health information seeking could potentially be hindered by myths and misinformation on OUD, misleading or causing genuine harm to people with OUD. In this work, we examine the prevalence of 5 OUD-related myths, on treatment models and patient characteristics, within human-(taken from Reddit) and LLM-generated responses to queries on OUD. We further explore the framing strategies used within responses (both human- and LLM-generated) promoting and countering the myths. We found that all 5 myths were more widespread within human-generated responses. In addition, myth-promoting responses adopted trustworthy and authoritative framings, compared to knowledge-imparting linguistic cues within those countering the myths. Our work offers recommendations to reduce online OUD misinformation.}
 }
+
 
 @inproceedings{park-etal-2024-valuescope,
     title = "{V}alue{S}cope: Unveiling Implicit Norms and Values via Return Potential Model of Social Interactions",
@@ -79,4 +85,17 @@
     url = "https://aclanthology.org/2024.emnlp-main.1134",
     pages = "20339--20369",
     abstract = "Large language models (LLMs) have emerged as an integral part of modern societies, powering user-facing applications such as personal assistants and enterprise applications like recruitment tools. Despite their utility, research indicates that LLMs perpetuate systemic biases. Yet, prior works on LLM harms predominantly focus on Western concepts like race and gender, often overlooking cultural concepts from other parts of the world. Additionally, these studies typically investigate {``}harm{''} as a singular dimension, ignoring the various and subtle forms in which harms manifest. To address this gap, we introduce the Covert Harms and Social Threats (CHAST), a set of seven metrics grounded in social science literature. We utilize evaluation models aligned with human assessments to examine the presence of covert harms in LLM-generated conversations, particularly in the context of recruitment. Our experiments reveal that seven out of the eight LLMs included in this study generated conversations riddled with CHAST, characterized by malign views expressed in seemingly neutral language unlikely to be detected by existing methods. Notably, these LLMs manifested more extreme views and opinions when dealing with non-Western concepts like caste, compared to Western ones such as race.",
+}
+
+@inproceedings{jung2025mythtriagescalabledetectionopioid,
+      title={{M}yth{T}riage: Scalable Detection of Opioid Use Disorder Myths on a Video-Sharing Platform}, 
+      author={Hayoung Jung and Shravika Mittal and Ananya Aatreya and Navreet Kaur and Munmun De Choudhury and Tanushree Mitra},
+      year={2025},
+      eprint={2506.00308},
+      selected={true},
+      category={preprint},
+      archivePrefix={arXiv},
+      primaryClass={cs.CY},
+      url={https://arxiv.org/abs/2506.00308}, 
+      abstract = {Understanding the prevalence of misinformation in health topics online can inform public health policies and interventions. However, measuring such misinformation at scale remains a challenge, particularly for high-stakes but understudied topics like opioid-use disorder (OUD)--a leading cause of death in the U.S. We present the first large-scale study of OUD-related myths on YouTube, a widely-used platform for health information. With clinical experts, we validate 8 pervasive myths and release an expert-labeled video dataset. To scale labeling, we introduce MythTriage, an efficient triage pipeline that uses a lightweight model for routine cases and defers harder ones to a high-performing, but costlier, large language model (LLM). MythTriage achieves up to 0.86 macro F1-score while estimated to reduce annotation time and financial cost by over 76% compared to experts and full LLM labeling. We analyze 2.9K search results and 343K recommendations, uncovering how myths persist on YouTube and offering actionable insights for public health and platform moderation.}
 }

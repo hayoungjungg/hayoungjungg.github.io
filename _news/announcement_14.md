@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-03-10
+date: 2025-05-19
 inline: true
 related_posts: false
 ---
 
-Excited to intern as an Applied Scientist at Qualtrics this summer!
+I am interning as an Applied Scientist at Qualtrics this summer! Excited to be working on AI Agent Evaluation 🤖. 

@@ -13,9 +13,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a M.S. student in the [Paul G. Allen School of Computer Science & Engineering](https://www.cs.washington.edu/) at the [University of Washington](https://www.washington.edu/), advised by [Tanushree Mitra](https://faculty.washington.edu/tmitra/). My research interest are Social Computing, Algorithmic Audits, AI Ethics, Computational Social Science, and NLP.
+I am an incoming Ph.D. student in Computer Science at [Princeton University](https://www.cs.princeton.edu/), co-advised by [Manoel Horta Ribeiro](https://manoelhortaribeiro.github.io/) and [Aleksandra Korolova](https://www.korolova.com/). I will be affiliated with the [Center for Information Technology Policy (CITP)](https://citp.princeton.edu/) and [Princeton Language and Intelligence (PLI)](https://pli.princeton.edu/). My research interest are Social Computing, Computational Social Science, Algorithmic Audits, and NLP.
 
-As a graduate student, I've also conducted research with [Yulia Tsvetkov](https://homes.cs.washington.edu/~yuliats/) and [David Jurgens](https://jurgens.people.si.umich.edu/). Previously, I received undergraduate degrees in Computer Science and Political Science from the University of Washington.
+Previously, I received my M.S. at the [Paul G. Allen School of Computer Science & Engineering](https://www.cs.washington.edu/) at the [University of Washington](https://www.washington.edu/), advised by [Tanushree Mitra](https://faculty.washington.edu/tmitra/). During my time there, I was fortunate to conduct research with [Yulia Tsvetkov](https://homes.cs.washington.edu/~yuliats/), [David Jurgens](https://jurgens.people.si.umich.edu/), [Monojit Choudhury](https://mbzuai.ac.ae/study/faculty/monojit-choudhury/), and [Munmun De Choudhury](http://www.munmund.net/). Before that, I received undergraduate degrees in Computer Science and Political Science from the University of Washington.
 
 ## research interests
 

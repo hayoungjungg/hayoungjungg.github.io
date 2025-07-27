@@ -6,7 +6,7 @@ nav: true
 nav_order: 1
 ---
 
-<p>For most up-to-date list of my publications, please visit my <a href="https://scholar.google.com/citations?user=4-HhtdkAAAAJ&hl=en">Google Scholar profile.</a></p>
+<p>For most up-to-date list of my publications, please visit my <a href="https://scholar.google.com/citations?user=5OJnFjkAAAAJ&hl=en">Google Scholar profile.</a></p>
 
 <!-- _pages/publications.md -->
 <div class="publications">

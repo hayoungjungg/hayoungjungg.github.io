@@ -241,6 +241,12 @@
           <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
         {% endif %}
       {% endif %}
+      {% if entry.uw_news %}
+        <a href="{{ entry.uw_news }}" class="btn btn-sm z-depth-0" role="button">UW News</a>
+      {% endif %}
+      {% if entry.mit_tech %}
+        <a href="{{ entry.mit_tech }}" class="btn btn-sm z-depth-0" role="button">MIT Technology Review</a>
+      {% endif %}
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}

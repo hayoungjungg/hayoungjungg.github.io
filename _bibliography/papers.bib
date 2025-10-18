@@ -1,3 +1,32 @@
+@inproceedings{kaur,
+      title={Who's Asking? Simulating Role-Based Questions for Conversational AI Evaluation}, 
+      author={Navreet Kaur, Hayoung Jung*, Hoda Ayad*, Shravika Mittal, Munmun De Choudhury, and Tanushree Mitra.},
+      year={2025},
+      eprint={},
+      selected={true},
+      category={preprint},
+      booktitle={Will be uploaded soon!},
+      archivePrefix={},
+      primaryClass={},
+      url={}, 
+      abstract = {Language model users often embed personal and social context in their questions. The asker's role—implicit in how the question is framed—creates specific needs for an appropriate response. However, most evaluations, while capturing the model's capability to respond, often ignore who is asking. This gap is especially critical in stigmatized domains such as opioid use disorder (OUD), where accounting for users' contexts is essential to provide accessible, stigma-free responses. We propose CORUS (COmmunity-driven Roles for User-centric Question Simulation), a framework for simulating role-based questions. Drawing on role theory and posts from an online OUD recovery community (r/OpiatesRecovery), we first build a taxonomy of asker roles—patients, caregivers, practitioners. Next, we use it to simulate 15,321 questions that embed each role's goals, behaviors, and experiences. Our evaluations show that these questions are both highly believable and comparable to real-world data. When used to evaluate five LLMs, for the same question but differing roles, we find systematic differences: vulnerable roles, such as patients and caregivers, elicit more supportive responses (+17%) and reduced knowledge content (-19%) in comparison to practitioners. Our work demonstrates how implicitly signaling a user's role shapes model responses, and provides a methodology for role-informed evaluation of conversational AI.}
+}
+
+@inproceedings{phutane2025ableistintersectionaldisabilitybias,
+      title={ABLEIST: Intersectional Disability Bias in LLM-Generated Hiring Scenarios}, 
+      author={Mahika Phutane* and Hayoung Jung* and Matthew Kim and Tanushree Mitra and Aditya Vashistha},
+      year={2025},
+      eprint={2510.10998},
+      selected={true},
+      category={preprint},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      code={https://github.com/hayoungjungg/ABLEIST},
+      model={https://huggingface.co/hayoungjung/llama3.1-8b-adapter-ABLEist-detection},
+      url={https://arxiv.org/abs/2510.10998}, 
+      abstract = {Large language models (LLMs) are increasingly under scrutiny for perpetuating identity-based discrimination in high-stakes domains such as hiring, particularly against people with disabilities (PwD). However, existing research remains largely Western-centric, overlooking how intersecting forms of marginalization--such as gender and caste--shape experiences of PwD in the Global South. We conduct a comprehensive audit of six LLMs across 2,820 hiring scenarios spanning diverse disability, gender, nationality, and caste profiles. To capture subtle intersectional harms and biases, we introduce ABLEIST (Ableism, Inspiration, Superhumanization, and Tokenism), a set of five ableism-specific and three intersectional harm metrics grounded in disability studies literature. Our results reveal significant increases in ABLEIST harms towards disabled candidates--harms that many state-of-the-art models failed to detect. These harms were further amplified by sharp increases in intersectional harms (e.g., Tokenism) for gender and caste-marginalized disabled candidates, highlighting critical blind spots in current safety tools and the need for intersectional safety evaluations of frontier models in high-stakes domains like hiring.}
+}
+
 @inproceedings{jung2025mythtriagescalabledetectionopioid,
       title={{M}yth{T}riage: Scalable Detection of Opioid Use Disorder Myths on a Video-Sharing Platform}, 
       author={Hayoung Jung and Shravika Mittal and Ananya Aatreya and Navreet Kaur and Munmun De Choudhury and Tanushree Mitra},
@@ -12,6 +41,8 @@
       data={https://github.com/hayoungjungg/MythTriage},
       code={https://github.com/hayoungjungg/MythTriage/tree/main/code},
       model={https://huggingface.co/SocialCompUW/youtube-opioid-myth-detect-M1},
+      slides={EMNLP_2025_main-349_poster.pdf},
+      slides={EMNLP_2025_main-349_slides.pdf},
       url={https://arxiv.org/abs/2506.00308},
       abstract = {Understanding the prevalence of misinformation in health topics online can inform public health policies and interventions. However, measuring such misinformation at scale remains a challenge, particularly for high-stakes but understudied topics like opioid-use disorder (OUD)--a leading cause of death in the U.S. We present the first large-scale study of OUD-related myths on YouTube, a widely-used platform for health information. With clinical experts, we validate 8 pervasive myths and release an expert-labeled video dataset. To scale labeling, we introduce MythTriage, an efficient triage pipeline that uses a lightweight model for routine cases and defers harder ones to a high-performing, but costlier, large language model (LLM). MythTriage achieves up to 0.86 macro F1-score while estimated to reduce annotation time and financial cost by over 76% compared to experts and full LLM labeling. We analyze 2.9K search results and 343K recommendations, uncovering how myths persist on YouTube and offering actionable insights for public health and platform moderation.}
 }
@@ -98,6 +129,8 @@
     model={https://huggingface.co/SocialCompUW/CHAST},
     slides={llm-culture-slides.pdf},
     award={-- Nominated for the Best Paper Award},
+    uw_news={https://www.washington.edu/news/2024/11/20/ai-chatbots-chatgpt-hiring-bias-caste-race/},
+    mit_tech={https://www.technologyreview.com/2025/10/01/1124621/openai-india-caste-bias/},
     month = nov,
     year = "2024",
     address = "Miami, Florida, USA",

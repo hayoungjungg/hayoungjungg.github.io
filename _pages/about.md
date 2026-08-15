@@ -13,7 +13,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student in Computer Science at [Princeton University](https://www.cs.princeton.edu/), co-advised by [Manoel Horta Ribeiro](https://manoelhortaribeiro.github.io/) and [Aleksandra Korolova](https://www.korolova.com/). 
+I am a Ph.D. student in Computer Science at [Princeton University](https://www.cs.princeton.edu/), co-advised by [Manoel Horta Ribeiro](https://manoelhortaribeiro.github.io/) and [Aleksandra Korolova](https://www.korolova.com/).
 
 I design and evaluate how agentic systems retrieve, synthesize, and present scientific evidence--and audit their failures in human interaction and decision-making, especially in high-stakes domains like health and scientific contexts.
 
